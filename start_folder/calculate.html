@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>私のポートフォリオ</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/calculate.css">
+    </head>
+
+    <body>
+        <main>
+            <header>
+                <h1>電卓</h1>
+                <nav>
+                    <ul class="nav-list">
+                        <li><a href="../index.html">ホーム</a></li>
+                        <li><a href="index_2.html">お問い合わせ</a></li>
+                        <li><a href="work.html">課題</a></li>
+                        <li><a href="calculate.html">電卓</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <section class="contact-form">
+                <h2>計算式</h2>
+                <form id="calcform" action="#" method="post">
+                    <label for="value1">値1</label>
+                    <input type="number" id="value1"><br>
+
+                    <label for="value1">値2</label>
+                    <input type="number" id="value2"><br>
+
+                    <label for="choice">演算子</label>
+                    <select name="choice" id="choice">
+                        <option value="addition">足し算</option>
+                        <option value="substraction">引き算</option>
+                        <option value="multipulication">掛け算</option>
+                        <option value="division">割り算</option>
+                    </select><br>
+                </form>
+<p id="formula">ここに計算式が表示されます</p>
+<p id="result">ここに結果が表示されます</p>
+
+            </section>
+
+            <footer>
+                <p>&copy;2025 私のポートフォリオ</p>
+            </footer>
+        </main>
+        <script src="JavaScriptWork/calculate.js"></script>
+    </body>
+
+</html>
