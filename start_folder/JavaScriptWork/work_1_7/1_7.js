@@ -15,10 +15,10 @@ document.getElementById("searchbtn").addEventListener("click", () => {
 
         .then(data => {
             resultDiv.innerHTML = `
-<p><storong>ユーザー名：</strong> ${data.login}</p>
-<p><storong>名前：</strong> ${data.name || "未設定"}</p>
-<p><storong>フォロワー数：</strong> ${data.followers}</p>
-<p><storong>公開リポジトリ数：</strong> ${data.public_repos}</p>
+<p><strong>ユーザー名：</strong> ${data.login}</p>
+<p><strong>名前：</strong> ${data.name || "未設定"}</p>
+<p><strong>フォロワー数：</strong> ${data.followers}</p>
+<p><strong>公開リポジトリ数：</strong> ${data.public_repos}</p>
 <img src="${data.avatar_url}" width="100" alt="アイコン画像"/>
 `;
         })

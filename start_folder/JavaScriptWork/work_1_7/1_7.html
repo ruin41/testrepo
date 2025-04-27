@@ -5,17 +5,37 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>GitHubユーザー情報取得</title>
-
+        <link rel="stylesheet" href="../../css/style.css">
     </head>
 
     <body>
-        <a href="../../work.html">課題一覧へ</a>
-        <h1>GitHubユーザー情報を取得しよう</h1>
-        <input type="text" id="username" placeholder="GitHubユーザー名を入力">
-        <button id="searchbtn">検索</button>
+        <header>
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="../../../index.html">ホーム</a></li>
+                    <li><a href="../../index_2.html">お問い合わせ</a></li>
+                    <li><a href="../../work.html">課題</a></li>
+                    <li><a href="../../calculate.html">電卓</a></li>
+                    <li><a href="../../JavaScriptWork/work_1_7/1_7.html">GitHub検索</a></li>
+                </ul>
+            </nav>
 
-        <div id="result"></div>
-
+        </header>
+        <main>
+            <section class="contact-form">
+                <h1>GitHubユーザー情報を取得しよう</h1>
+               
+                    <label for="name"> </label>
+                    <input type="text" id="username" placeholder="GitHubユーザー名を入力">
+                    <button id="searchbtn">検索</button>
+                    <div id="result"></div>
+      
+            </section>
+          
+        </main>
+        <footer>
+            <p>&copy;2025 私のポートフォリオ</p>
+        </footer>
         <script src="1_7.js"></script>
     </body>
 
